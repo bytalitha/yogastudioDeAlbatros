@@ -1,0 +1,635 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fffff9;
+    scroll-behavior: smooth;
+} 
+
+#menubar {
+  display:none;
+}
+
+.koptekst {
+  text-align: center;
+  margin: 20px;
+}
+
+.klikbareAfbeeldingen-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 5%;
+  margin: 20px;
+}
+
+.klikbareAfbeeldingen {
+  width: 100%;
+}
+
+.klikbareAfbeeldingMetTekst {
+  border: 1px solid black;
+  background-color: #FFC400;
+  text-align: center;
+  
+}
+
+.klikbareAfbeeldingMetTekst p {
+  margin: 4px;
+}
+
+.klikbareAfbeeldingen-container a {
+  text-decoration: none;
+  color: black;
+} 
+
+.tekstvakGrijs {
+  background-color: #EDEDED;
+  padding: 5px 0;
+}
+
+img {
+  width: 100%;
+}
+
+button#trekKaartButton {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Mobiel */
+@media screen and (max-width: 767px) {
+    /* Tekst */
+    h1 {
+      color: black;
+      background-color: #FFC400;
+      border: 1px solid black;
+      font-family: 'lora', 'Verdana', 'Arial', 'Times New Roman';
+      font-size: 22px; 
+      font-style: italic;
+      font-weight: bold;
+      padding: 2px;
+    }
+
+    h2 {
+      color: black;
+      background-color: #FFC400;
+      border: 1px solid black;
+      font-family: 'lora', 'Verdana', 'Arial', 'Times New Roman';
+      font-size: 20px; 
+      font-style: italic;
+      font-weight: bold;
+      text-align: center;
+      padding: 3px 0;
+    }
+
+    h3 {
+      color: black;
+      font-family: 'lora', 'Verdana', 'Arial', 'Times New Roman';
+      font-size: 20px; 
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    p {
+      color: black;
+      font-family: 'Roboto', 'Verdana', 'Arial', 'Times New Roman';
+      font-size: 14px; 
+      font-style: normal;
+      line-height: 1.5;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .tekstenHome {
+      margin: 20px;
+    }
+
+    .teksten {
+      margin: 25px 20px;
+    }
+
+    .afbeeldingen{
+      width: 100%;
+      height: auto;
+    }
+
+    .kopjes {
+      font-weight: bold;
+      margin-bottom: -12px;
+    }
+
+    /*Navbar*/
+    .logoAlbatrosChakra {
+        width: 80px;
+    }
+
+    .logo {
+        color: black;
+        font-family: 'lora', 'Verdana', 'Arial', 'Times New Roman';
+        font-size: 25px; 
+        font-style: italic;
+        font-weight: 600;
+    }
+
+    .logo a {
+      color: black;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .topnav {
+      display: none;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background-color: #FFC400;
+      border-bottom: 1px solid rgb(0, 0, 0);
+      z-index: 99999;
+    }
+
+    .nav-item {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    }
+    
+    header .navmenu ul li {
+      list-style: none;
+      margin: 0;
+      background-color: #FFC400;;
+    }
+    
+    header .navmenu ul li a {
+      text-decoration: none;
+      color: black;
+      display: block;
+      font-size: 15px;
+      font-style: normal;
+      font-family: 'Roboto', 'Verdana', 'Arial', 'Times New Roman';
+      margin: 0 20px;
+      padding: 10px 0;
+    }
+    
+    header .navmenu ul li a:visited {
+      color: black;
+    }
+    
+    header .navmenu ul li ul {
+      position: absolute;
+      left: 0;
+      display: none;
+    }
+    
+    header .navmenu ul li ul li {
+      width: 100%;
+      background-color: #FFD976;
+    }
+    
+    header .navmenu ul li ul li a{
+      margin-left: 25px; 
+    }
+    
+    
+    header .navmenu ul li:focus-within > ul,
+    header .navmenu ul li:hover > ul{
+      display: inline-table;
+    }
+
+    .navbar {
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 20px;
+    }
+    
+    header .navmenu {
+      position: absolute;
+      top: 75px; 
+      left: 0; 
+      right: 0;
+      border-top: 1px solid black;
+      display: none;
+    }
+
+    header .navmenu ul {
+      padding: 0;
+      margin: 0;
+    }
+
+    header .navmenu ul li{
+      width: 100%;
+      list-style: none;
+    }
+
+    
+    header .navbar ul li ul{
+      position: relative;
+      width: 100%;
+    }
+
+    header label {
+      display: block;
+      position: relative;
+    }
+    
+    .hamburger {
+      display: none;
+      cursor: pointer;
+    }
+    
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      background-color: black;
+      -webkit-transition: .25s ease-in-out;
+      -moz-transition: .25s ease-in-out;
+      -o-transition: .25s ease-in-out;
+      transition: .25s ease-in-out;
+    }
+  
+    .hamburger {
+      display: block;
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #menubar:checked ~ .navmenu{
+      display: block;
+      animation: animationNavbar 1s;
+    }
+
+    @keyframes animationNavbar {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Pijl navbar */
+    .arrow {
+      width: 10px;
+      height: 10px;
+      border-left: 2px solid black;
+      border-bottom: 2px solid black;
+      transform: rotate(-45deg);
+      vertical-align: middle;
+      float: right;
+      margin-right: 5px;
+    }
+
+    /* Home */
+    .videoHome {
+      margin: 20px;
+    }
+
+    /* Buttons */
+    .aanmeldButton {
+      padding: 12px;
+      background-color: #0B2C83;
+      color: white;
+      border: none;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 5px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+      transition: transform 0.1s ease;
+    }
+
+    .aanmeldButton:active {
+      transform: translateY(2px);
+      box-shadow: none;
+    }
+
+    /* Prijzenlijst */
+    .prijzenlijst {
+      border: 2px solid #FFC400;
+      margin: 0 20px;
+      padding: 0 15px;
+      
+    }
+
+    .lijnInPrijzenlijst {
+      border-top: 1px solid #FFD976;
+    }
+
+    /* Contact */
+    .contactgegevens {
+      margin-top: -12px;
+    }
+
+    .kopjesLocatie {
+      font-weight: bold;
+    }
+
+    .rowContact {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
+    .openingstijden {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: -15px;
+    }
+
+    .rowContactSocial {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+    }
+
+    .centerText {
+      text-align: center;
+      margin-top: -15px;
+    }
+
+    #contact-form {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      font-family: 'Roboto', 'Arial', 'Verdana', 'Times New Roman';
+      font-size: 14px;
+      border: 2px solid #FFC400
+    }
+    
+    #contact-form input,
+    #contact-form textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      box-sizing: border-box;
+      background-color: #EDEDED;
+      resize: none;
+    }
+    
+    #contact-form button[type="submit"] {
+      padding: 10px;
+      border: none;
+      background-color: #0B2C83;
+      color: white;
+      cursor: pointer;
+      font-family: 'Roboto', 'Arial', 'Verdana', 'Times New Roman';
+      font-style: normal;
+      font-size: 16px;
+      margin-left: auto;
+      display: block;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+      transition: transform 0.1s ease;
+    }
+
+    #contact-form button[type="submit"]:active {
+      transform: translateY(2px);
+      box-shadow: none;
+    }
+
+    .accordion-content {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 500ms;
+      background-color: #EDEDED;
+      padding: 0 20px;
+    }
+    
+    .accordion-content[aria-hidden="false"] {
+      grid-template-rows: 1fr;
+      background-color: #EDEDED;
+      padding: 0 20px;
+    }
+    
+    .accordion-content > div {
+      overflow: hidden;
+    }
+    
+    .accordion-container {
+      padding: 0 20px;
+    }
+    
+    .accordion-panel {
+      width: 100%;
+    }
+    
+    .accordionButton {
+      border: 0;
+      border-bottom: 1px solid black;
+      background-color: #FFC400;
+      color: black;
+      width: 100%;
+      font-family: 'Roboto', 'Arial', 'Verdana', 'Times New Roman';
+      font-style: normal;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 20px;
+      text-align: left;
+      position: relative;
+    }
+    
+    .accordionButton-label {
+      display: inline-block;
+      padding-right: 20px;
+    }
+
+    .accordionButton-icon {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      font-size: 20px;
+      transform: translateY(-50%);
+      font-weight: bold;
+      transition: transform 300ms;
+    }
+    
+    .accordionButton[aria-expanded="false"] .accordionButton-icon::after {
+      content: "+";
+    }
+    
+    .accordionButton[aria-expanded="true"] .accordionButton-icon::after {
+      content: "-";
+    }
+
+    /* Aanmelden */
+    #register-form {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      font-family: 'Roboto', 'Arial', 'Verdana', 'Times New Roman';
+      font-size: 14px;
+      border: 2px solid #FFC400
+    }
+    
+    #register-form select,
+    #register-form input,
+    #register-form textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      box-sizing: border-box;
+      background-color: #EDEDED;
+      resize: none;
+    }
+    
+    #register-form button[type="submit"] {
+      padding: 10px;
+      border: none;
+      background-color: #0B2C83;
+      color: white;
+      cursor: pointer;
+      font-family: 'Roboto', 'Arial', 'Verdana', 'Times New Roman';
+      font-style: normal;
+      font-size: 16px;
+      margin-left: auto;
+      display: block;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+      transition: transform 0.1s ease;
+    }
+
+    #register-form button[type="submit"]:active {
+      transform: translateY(2px);
+      box-shadow: none;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #ffc400;
+      border-top: 1px solid black;
+      margin-top: 20px;
+  }
+  
+  footer p {
+      margin: 0;
+  }
+  
+  .footer {
+      display: flex;
+      flex-direction: column-reverse;
+      bottom: 0;
+      text-align: center;
+      align-items: center;
+      padding: 5px;
+  }
+    
+  .footer a {
+      color: black;
+  }
+  
+  .footerSocialMedia {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+  }
+    
+  }
+
+/* Desktop */
+@media screen and (min-width: 768px) { 
+    #socialmediaNavbar {
+      display: none;
+    }
+
+    .logoAlbatrosChakra {
+        width: 120px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-family: 'lora', 'Verdana', 'Arial', 'Times New Roman';
+        font-size: 37px;
+        font-style: italic;
+    }
+
+    .topnav {
+      display: flex;
+      justify-content: right;
+      flex-direction: row;
+      background-color: #FFFFF9;
+      border-bottom: 1px solid black;
+      padding: 5px 80px;
+      gap: 20px;
+    }
+    
+    header {
+      background-color: #FFC400;
+      border-bottom: 1px solid black;
+    }
+    
+    li {
+      list-style: none;
+    }
+    
+    .navbar {
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 80px;
+    }
+    
+    .nav-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .nav-menu a {
+      color: black;
+      text-decoration: none;
+      font-family: 'Roboto', 'Verdana', 'Arial', 'Times New Roman';
+      font-size: 20px;
+      font-style: normal;
+    }
+      
+    .hamburger {
+      display: none;
+      cursor: pointer;
+    }
+    
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3 ease-in-out;
+      transition: all all 0.3 ease-in-out;
+      background-color: black;
+    }
+    
+}  

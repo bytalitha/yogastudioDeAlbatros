@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "picture": "deZegewagen.png",
+        "title": "De Zegewagen",
+        "kernwoorden": "Wilskracht + Volharding + Controle + Succes",
+        "kaart": "De Zegewagen is een kaart die staat voor wilskracht en actie, zoals weergegeven door de wagenmenner die sterk en trots op zijn wagen staat en zijn orders met vastberadenheid uitdeelt. Hij is gekroond met succes en versierd met symbolen van hemelse verbinding.",
+        "betekenis": "Als je een boost voor je zelfvertrouwen nodig hebt, komt de Zegewagen je dat brengen. Je pad is juist en leidt naar succes. Je beschikt over alle vaardigheden en de vastberadenheid om je doel te behalen. Blijf je eigen koers volgen, wat er ook op je afkomt. Verhoog je focus en onderneem actie in de richting van wat je wilt - het is nu niet de tijd om achterover te leunen. De Zegewagen kan ook staan voor reizen, dus mogelijk ligt er een reisje in het verschiet."
+    },
+    {
+        "id": 2,
+        "picture": "bekers2.png",
+        "title": "Twee van Bekers",
+        "kernwoorden": "Verbinding + Partnerschap + Harmonie + Samenwerking + Gelijkwaardigheid",
+        "kaart": "Een man en vrouw staan tegenover elkaar en bieden elkaar hun beker aan.",
+        "betekenis": "De Twee van Bekers staat voor een wederwijds liefdevol en gunstig partnerschap, of dit nu een romantische, platonische of zakelijke relatie is. Deze kaart wordt geassocieerd met een periode van harmonie en een verdieping van de verbinding voor langdurig succes."
+    },
+    {
+        "id": 3,
+        "picture": "koningVanPentakels.png",
+        "title": "Koning van Pentakels",
+        "kernwoorden": "Materieel succes + Ambitie + Vaardigheden + Zaken + Overvloed",
+        "kaart": "De Koning van Pentakels is een tevreden man die zijn plek op de troon heeft verdiend met hard werken, meesterschap in bepaalde vaardigheden en succesvol leiderschap. Hij heeft een scepter in zijn ene en een pentakel in zijn andere hand en houdt daarmee autotiteit en rijkdom in evenwicht.",
+        "betekenis": "Wanneer de Koning van Pentakels verschijnt, zit je waarschijnlijk in een gunstige periode. Haal het beste uit deze periode van voorspoed. Sla munt uit je charisma, kennis van zaken en het vertrouwen dat mensen in je hebben. Grijp de kansen die zich nu voordoen, inversteer in langertermijndoelen em blijf je leven in de richting van succes sturen."
+    },
+    {
+        "id": 4,
+        "picture": "stavenVier.png",
+        "title": "Vier van Staven",
+        "kernwoorden": "Viering + Succes + Geluk + Harmonie",
+        "kaart": "Twee mensen dansen met bloemen in hun handen tussen vier staven die met een guirlande zijn versierd.",
+        "betekenis": "Het is tijd om feest te vieren! Of je nu een carrièredoel hebt bereikt, een vervullende relatie hebt gevonden of een mijlpaal in je leven hebt behaald, nu is het tijd om bij dat heugelijke feit stil te staan en het te vieren."
+    },
+    {
+        "id": 5,
+        "picture": "zwaardenDrie.png",
+        "title": "Drie van Zwaarden",
+        "kernwoorden": "Verlies + Gebroken hart + Lijden + Verdriet",
+        "kaart": "Een hart dat doorboord is met drie zwaarden zweeft door een stormachtige lucht.",
+        "betekenis": "De Drie van Zwaarden is een kaart die heftige gevoelens oproept. De kaart staat voor een diep en betreurend verlies, of het nu om een verbroken relatie, een ruzie met een vriend of familielid of het verlies van een geliefde baan is. De emotionele pijn is echt, maar door je hoofd helder te maken zul je in staat zijn hierboven uit te stijgen en van de ervaring te leren."
+    }
+]
