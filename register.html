@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="icon" type="image/x-icon" href="images/logoAlbatrosChakras2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="topnav">    
+                <a href="https://www.facebook.com/profile.php?id=100009531786865" target="_blank"><img src="images/facebookLogo.png" alt="Facebook" height="25px"></a>
+                <a href="https://www.instagram.com/yogabytalitha/" target="_blank"><img src="images/instagramLogo.png" alt="Instagram" height="25px"></a>
+                <a href="https://api.whatsapp.com/send?phone=31629993476" target="_blank"><img src="images/whatsAppLogo.png" alt="Whatsapp" height="25px"></a>
+        </nav>
+
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="logoAlbatrosChakra" src="images/logoAlbatrosChakras2.png" alt="logo">
+                    De Albatros
+                </a>
+            </div>
+
+            <input type ="checkbox" id="menubar">
+
+            <nav class="navmenu">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link"> Home</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link">Aanbod <span class="arrow"></span></a>
+                        <ul>
+                            <li><a href="privateYoga.html">Privé yoga</a></li>
+                            <li><a href="coaching.html">Coaching</a></li>
+                            <li><a href="TRE.html">TRE</a></li>
+                            <li><a href="tarot.html">Tarot</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="prices.html" class="nav-link">Tarieven</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">Over ons</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="register.html" class="nav-link">Aanmelden</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link">Social media <span class="arrow"></span></a>
+                        <ul class="submenu">
+                        <li><a href="https://www.facebook.com/profile.php?id=100009531786865" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/yogabytalitha/" target="_blank">Instagram</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=31629993476" target="_blank">WhatsApp</a></li>
+                        </ul>
+                    </li> 
+                </ul>
+            </nav>
+                    
+            <label for="menubar">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </label>
+        </nav>
+    </header>
+
+    <div class="koptekst">
+        <h2>Aanmelden</h2>
+    </div>
+
+    <div class="teksten">
+        <form id="register-form" method="post">
+            <label for="keuze">Keuze*</label>
+            <select required>
+                <option value=""></option>
+                <option value="Yin">Yin yoga</option>
+                <option value="Vinyasa">Vinyasa yoga</option>
+                <option value="Chakra">Chakra yoga</option>
+                <option value="Nidra">Yoga Nidra</option>
+                <option value="Breathwork">Breathwork</option>
+                <option value="Coaching">Coaching</option>
+                <option value="Tre">TRE</option>
+                <option value="Tre">Tarot</option>
+            </select>
+
+            <label for="persons">Aantal personen*</label>
+            <select required>
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+
+            <label for="location">Locatie*</label>
+            <select required>
+                <option value=""></option>
+                <option value="Locatie">Op locatie (Eindhoven)</option>
+                <option value="Online">Online</option>
+            </select>
+            
+            <label for="message">Opmerking</label>
+            <textarea></textarea>
+
+            <div class="kopjes">
+                <p>Persoonlijke gegevens*</p>
+            </div>
+                <input type="text" placeholder="Voornaam" required>
+                <input type="text" placeholder="Achternaam" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="tel" placeholder="Telefoonnummer" required>
+            
+            <div class="kopjes">
+                <p>Adres gegevens*</p>
+            </div>
+                <input type="text" placeholder="Postcode" required>
+                <input type="text" placeholder="Huisnummer" required>
+                <input type="text" placeholder="Toevoeging (optioneel)">
+                <input type="text" placeholder="Straatnaam" required>
+                <input type="text" placeholder="Woonplaats" required>
+            
+            <button type="submit">Verzenden</button>
+          </form>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>De Albatros ©2023</p>
+            <p>info@DeAlbatros.nl</p>
+            <p>Rachelsmolen 1 | Eindhoven</p>
+
+            <div class="footerSocialMedia">
+                <a href="https://www.facebook.com/profile.php?id=100009531786865" target="_blank"><img src="images/facebookLogo.png" alt="Facebook" height="28px"></a>
+                <a href="https://www.instagram.com/yogabytalitha/" target="_blank"><img src="images/instagramLogo.png" alt="Instagram" height="28px"></a>
+                <a href="https://api.whatsapp.com/send?phone=31629993476" target="_blank"><img src="images/whatsAppLogo.png" alt="WhatsApp" height="28px"></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
